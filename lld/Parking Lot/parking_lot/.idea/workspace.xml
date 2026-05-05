@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f82e15e-3c68-4021-abc8-408333a95f8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/gate/EntryGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/gate/ExitGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/spot/LargeSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/spot/MediumSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/spot/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/spot/SmallSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/ParkingLotManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/ParkingLotOrchestrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/ParkingLotOrchestrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/PricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/PricingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/ParkingFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/ParkingFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/ParkingLot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/SpotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/SpotManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/gates/EntryGate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/gates/ExitGate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/parkingSpot/LargSpot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/parkingSpot/MediumSpot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/parkingSpot/ParkingSpot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/parkingSpot/SmallSpot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/vehicle/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/vehicle/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/vehicle/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/vehicle/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/vehicle/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/model/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/allocationStrategy/NearestSpotAllocationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/allocationStrategy/NearestSpotAllocationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/allocationStrategy/SpotAllocationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/allocationStrategy/SpotAllocationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/paymentStrategy/CardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/paymentStrategy/CardPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/paymentStrategy/CashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/paymentStrategy/CashPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/paymentStrategy/PaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/paymentStrategy/PaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/paymentStrategy/UPIPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/paymentStrategy/UPIPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/pricingStrategy/FlatPricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/pricingStrategy/FlatPricingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/pricingStrategy/HourlyPricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/pricingStrategy/HourlyPricingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/pricingStrategy/PricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/strategy/pricingStrategy/PricingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systemdesign/utility/IdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systemdesign/utility/IdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tic-Tac-Toe/tictactoe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tic-Tac-Toe/tictactoe/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3DJcX7UFRcMRznEdgOIpBnYgMzN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ParkingLotManager.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "E:/Corporate/Switch_Preparation/Tech/System_Design/LLD+HLD/lld/Parking Lot/parking_lot/src/main/java/com/systemdesign/Main.java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f82e15e-3c68-4021-abc8-408333a95f8c" name="Changes" comment="" />
+      <created>1778003652253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778003652253</updated>
+    </task>
+    <servers />
+  </component>
+</project>
