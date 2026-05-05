@@ -73,7 +73,7 @@ public class ParkingLotOrchestrator {
                 paymentMode = sc.nextLine().toUpperCase();
 
                 if(!"UPI#CASH#CARD".contains(paymentMode)){
-                    System.out.println("Invalid vehicle type...Please try again");
+                    System.out.println("Invalid Payment Mode...Please try again");
                     continue;
                 }
                 break;

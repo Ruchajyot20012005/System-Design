@@ -82,8 +82,8 @@ The goal is to build a system that is:
                                  | - Vehicle vehicle           |
                                  |-----------------------------|
                                  | + canFit(Vehicle)           |
-                                 | + occupySpot(Vehicle)    |
-                                 | + releaseSpot()           |
+                                 | + occupySpot(Vehicle)       |
+                                 | + releaseSpot()             |
                                  +-------------+---------------+
                                                ^
         ---------------------------------------|---------------------------------------
@@ -202,7 +202,7 @@ The goal is to build a system that is:
    +-----------------------------+                               +-----------------------------+
    | PricingStrategy             |                               | PaymentStrategy             |
    |-----------------------------|                               |-----------------------------|
-   | + calculateAmount(Ticket)      |                               | + pay(amount)               |
+   | + calculateAmount(Ticket)   |                               | + pay(amount)               |
    +-------------+---------------+                               +-------------+---------------+
                  ^                                                             ^
                  |                                                             |
@@ -572,7 +572,7 @@ yes
 Amount to be Paid: 20.0
 Select Payment Mode - UPI | CASH | CARD: 
 ATM
-Invalid vehicle type...Please try again
+Invalid Payment Mode...Please try again
 Select Payment Mode - UPI | CASH | CARD: 
 upi
 UPI Payment done for amount: 20.0
