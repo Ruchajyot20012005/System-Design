@@ -252,6 +252,8 @@ public class SymbolProvider {
 
 Overall, this design focuses on modularity, scalability, and real-world applicability, making it suitable for both interview scenarios and production-level extension.
 
+---
+
 # 🖥️ Console Walkthrough (Sample Run)
 
 Below is a sample interaction showing how the system behaves when the program runs.

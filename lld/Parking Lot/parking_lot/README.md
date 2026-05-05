@@ -82,8 +82,8 @@ The goal is to build a system that is:
                                  | - Vehicle vehicle           |
                                  |-----------------------------|
                                  | + canFit(Vehicle)           |
-                                 | + assignVehicle(Vehicle)    |
-                                 | + removeVehicle()           |
+                                 | + occupySpot(Vehicle)    |
+                                 | + releaseSpot()           |
                                  +-------------+---------------+
                                                ^
         ---------------------------------------|---------------------------------------
@@ -177,12 +177,12 @@ The goal is to build a system that is:
 
 
                                  +-----------------------------+
-                                 | ExitGate                   |
+                                 | ExitGate                    |
                                  |-----------------------------|
-                                 | - PricingService           |
+                                 | - PricingService            |
                                  |-----------------------------|
-                                 | + getAmount(Ticket)        |
-                                 | + payAndExit(Ticket)       |
+                                 | + getAmount(Ticket)         |
+                                 | + makePayment(Ticket)       |
                                  +-------------+---------------+
                                                |
                 -------------------------------+-------------------------------
@@ -202,7 +202,7 @@ The goal is to build a system that is:
    +-----------------------------+                               +-----------------------------+
    | PricingStrategy             |                               | PaymentStrategy             |
    |-----------------------------|                               |-----------------------------|
-   | + calculateFee(Ticket)      |                               | + pay(amount)               |
+   | + calculateAmount(Ticket)      |                               | + pay(amount)               |
    +-------------+---------------+                               +-------------+---------------+
                  ^                                                             ^
                  |                                                             |
